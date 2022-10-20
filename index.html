@@ -1,0 +1,71 @@
+<!-- saved from url=(0062)file:///C:/Users/majid/Documents/projects/Basic_HTML/main.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="description" content="An interactive CV of mine" />
+      <meta http-equiv="pragma" content="no-cache"/> <!--This prevents the browser from caching the page-->
+    <title>Homepage Majid Khoshrou</title>
+    <!-- Use CSS external file -->
+    <link rel="stylesheet" href="./css/styles.css"  type="text/css"/>
+  </head>
+
+  <body>
+
+    <div id="header"> <!-- beginning of header div -->
+
+      <img src="./images/majid.jpg" alt="image majid" id="header-image" >
+
+      <div class="navbar">
+        <ul >
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="cv.html"> CV </a> </li>
+          <li><a href="about-us.html"> Portfolio </a> </li>
+          <li><a href="about-us.html"> Hobbies </a> </li>
+          <li><a href="about-us.html"> Blog </a> </li>
+        </ul>
+      </div> 
+
+    </div> <!--end of header div-->
+   
+ 
+
+
+<h2>Get the size of the current screen/window</h2>
+<p>The example displays the browser window's height and width: (NOT including toolbars/scrollbars)
+
+<p id="demo"></p>
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+var x = document.getElementById("demo");
+x.innerHTML = "Browser width: " + w + ", height: " + h ;
+</script>
+
+<div id="content">
+  <div class="container">
+    <a href="#education">
+      <img src="./images/majid.jpg" alt="image majid" class="image" width="30px">
+      <div class="overlay">
+        <div class="text">Education</div>
+      </div>
+    </a>
+    </div>
+</div>
+
+   
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2472.9837043872553!2d5.318630015976921!3d51.696743304662085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee53bc89edd9%3A0x2a68213f0c1aeed9!2sVan%20Grobbendoncklaan%2C%20&#39;s-Hertogenbosch!5e0!3m2!1sen!2snl!4v1658652179766!5m2!1sen!2snl" 
+       width="500px"
+       height="500px" style="border:20;" allowfullscreen="" loading="lazy" 
+       referrerpolicy="no-referrer-when-downgrade" id="google-map">
+    </iframe>
+
+    <h2>Mehr 1401</h2>
+    <p>Check out snowflake <a href="https://snowflake.torproject.org/" target="_blank"> https://snowflake.torproject.org/ </a> </p>
+    <p><iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameborder="0" scrolling="no"></iframe>
+    </p>
+
+</body>
+
+</html>
