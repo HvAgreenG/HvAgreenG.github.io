@@ -1,0 +1,140 @@
+
+html{
+  overflow-y: scroll;
+}
+
+body{
+  background-color:rgb(191, 202, 195);
+  font-size:20px;
+  width:95%;
+  min-width: 500px;
+  min-height: 500px;
+  margin:0 0 auto auto;
+  /* border: 3px dashed black; */
+  }
+    
+  h1{
+    color: rgb(17, 36, 204);
+    text-shadow: 10px 10px 10px;
+  }
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#personal-photo{
+  position:absolute;
+  top: 100 px;
+  left: 200px;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+
+.container {
+  position: relative;
+  width: 12%;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 200px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+div#header{
+  background-color: rgb(144, 158, 149);
+  width:100%;
+  height: 30px;
+  /*   border: 2px solid red; */
+}
+
+div#header #header-image{
+  height:30px;
+  border-radius: 90%;
+  margin-left: 10px;
+}
+
+div#header div.navbar {
+  position: absolute;
+  top: 0px;
+  right:10px;
+  margin:0px 2px 0px 0px;
+}
+
+div.navbar ul {
+  list-style-type: none;
+  margin: 0px 20px 0px 0px;
+  padding: 3px;
+  overflow: hidden;
+}
+
+div.navbar ul li {
+  display:block;
+  float: left;
+  padding-left: 20px;
+  font-weight:bolder;
+}
+
+div.navbar ul li a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  opacity: 0.3;
+}
+
+/*
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #222222;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+*/

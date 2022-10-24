@@ -1,0 +1,111 @@
+
+html{
+    overflow-y: scroll;
+  }
+
+.column1of2-container{
+    background-color: rgb(66, 72, 67);
+    color: azure;
+    position: relative;
+    float: left;
+    width: 35%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 3px 0px 20px;
+}
+
+.column2of2-container{
+    background-color: transparent;
+    position: relative;
+    float: left;
+    width: 55%;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.column1of2, .column2of2{
+    margin: 0px;
+    padding: 10 auto;
+    height: 1500px; 
+    position: relative;
+    width: 100%;  /* need to add it o.w. when minimize the page the right col drops under*/
+}
+
+.column1of2 h2, .column2of2 h2{
+    font-size: 90%;
+}
+
+
+div.personal-info{
+    line-height: 1.1em;
+    padding:0px;
+}
+
+div.personal-info img{
+    width:30px;
+    height:30px;
+    float:left ;
+    border-radius:90%;
+}
+
+div.personal-info a{
+    font-style: normal;
+    font-size: .97em;
+    margin-left:6px;
+    display: inline;
+    color: azure;
+}
+
+div.column1of2 ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+div.column1of2 li span{
+    color:rgb(199, 180, 180);
+    font-size: 14px; 
+}
+
+div.column2of2 #name-and-summary{
+    padding-left: 50px;
+}
+
+div.column2of2 #name-and-summary span{
+    font-size:1em;
+    font-style: italic;
+}
+
+div.column2of2 section#experience, section#education {
+    padding: 10px 5px 20px 50px;
+}
+
+div.work-item, div.education-item {
+    margin:10px 2px 30px 2px;
+}
+
+div.work-item-employer , div.education-item-institute {
+    font-size:22px;
+    font-weight: bold;
+}
+
+div.work-item-role, div.work-item-timeperiod, div.work-item-location {
+    font-size:18px;
+}
+
+div.work-item-role{
+    font-style: italic;
+}
+
+div.work-item-location{
+    color: rgb(99, 92, 92);
+}
+
+a:hover{
+    opacity: 0.3;
+}
+
+div#horizontal_line{
+    margin-left: 100px;
+    width: 20%;
+}
