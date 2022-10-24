@@ -33,6 +33,11 @@ body{
   width: 200px;
   height: 200px;
 }
+div#visiting-address{
+  position:absolute;
+  right:20px;
+  bottom:10px
+}
 
 
 .container {
@@ -74,16 +79,17 @@ body{
 
 
 div#header{
-  background-color: rgb(144, 158, 149);
+  background-color: rgb(138, 155, 214);
   width:100%;
-  height: 30px;
+  height: 50px;
   /*   border: 2px solid red; */
 }
 
 div#header #header-image{
-  height:30px;
-  border-radius: 90%;
-  margin-left: 10px;
+  height:50px;
+  border-radius: 0%;
+  margin-left: 1px;
+  float: left;
 }
 
 div#header div.navbar {
@@ -100,7 +106,7 @@ div.navbar ul {
   overflow: hidden;
 }
 
-div.navbar ul li {
+div.navbar ul li{
   display:block;
   float: left;
   padding-left: 20px;
@@ -115,6 +121,20 @@ div.navbar ul li a {
 a:hover{
   opacity: 0.3;
 }
+
+div#header div#header-text{
+  display:block;
+  float: left;
+  padding-left: 20px;
+  font-weight:bolder;
+}
+
+div#co2-calculator{
+  width:1000px;
+}
+
+
+
 
 /*
 a:link {
