@@ -135,7 +135,7 @@ div#co2-calculator{
 
 
 div#content-text table{
-  width:440px;
+  width:500px;
   padding: 5px;
   border: 2px solid;
 }
@@ -145,6 +145,19 @@ div#content-text table td, tr{
   vertical-align: middle;
 }
 div#content-text table thead th{
+  background-color: rgb(138, 155, 214);
+}
+
+div#content-image table{
+  width:840px;
+  padding: 5px;
+  border: 2px solid;
+}
+div#content-image table td, tr{
+  text-align: center;
+  vertical-align: middle;
+}
+div#content-image table thead th{
   background-color: rgb(138, 155, 214);
 }
 
